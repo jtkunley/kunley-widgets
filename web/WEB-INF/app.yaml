@@ -1,0 +1,27 @@
+application: kunley-widgets
+version: dev
+runtime: java
+
+sessions_enabled: true
+threadsafe: true
+ssl_enabled: false
+
+inbound_services:
+- warmup
+
+static_files:
+- exclude: /**.groovy
+
+handlers:
+- url: /about
+  jsp: /pages/legal/about.jsp
+
+- url: /terms
+  jsp: /pages/legal/terms.jsp
+
+- url: /privacy
+  jsp: /pages/legal/privacy.jsp
+
+#-------- WIDGETS ----------
+- url: /wave
+  jsp: /pages/wave/wave.jsp

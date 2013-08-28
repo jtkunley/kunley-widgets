@@ -1,0 +1,123 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "site";
+
+#notes {
+	font-size:10px;
+	font-family: verdana,helvetica,sans-serif;
+	color:DarkSlateGray;
+	margin: 10px auto 20px auto;
+	line-height:1.2em;
+	border-top:1px solid #ccc;
+	p { margin-top:12px; }
+}
+
+section#social {
+	position:absolute; top:120px; right: 40px;
+	width:270px;
+	section { margin-bottom:5px;}
+}
+
+h1#title {
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:20px;
+	color: lighten(DarkSlateGray, 5%);
+}
+
+section#header {
+	line-height:1.5em;
+	h4 { font-weight:bold; margin-top:5px;}
+	ul { list-style:disc outside none; }
+	ul li { margin-left:20px; }
+}
+
+#write-up {
+	margin: 0 auto;
+	p { 
+		line-height:1.2em; 
+		padding:5px 0; 
+		strong {font-weight:bold;}
+	}
+	h3 { 
+		padding: 5px 0;
+		font-weight:bold; 
+		text-decoration:underline;
+	}
+}
+
+#widget {
+	border:2px solid #666;
+	width:840px;
+	height:600px;
+	margin:20px auto;
+	background:lighten(black,10%);
+	font-family:Verdana,Arial,sans-serif;
+	@include box-shadow(rgba(black,0.4) 0 0 10px);
+	#canvas-panel {
+		float:left;
+		position:relative;
+		canvas { position:absolute; }
+		#canvas_bg { border-right:1px solid #aaa; }
+		#canvas_1 { top:10px; left:10px; }
+		#canvas_2 { top:160px; left:10px; }
+		#canvas_sum { top:310px; left:10px; }
+		#wave_1 { top:5px; }
+		#wave_2 { top:150px; } 
+		#sum { top:300px }
+		.label { 
+			position:absolute; 
+			left:5px;
+			display:inline;
+			font-size:14px; 
+			font-weight:bold; 
+			color:coral;
+			white-space: nowrap;
+			background:lighten(black,10%);
+			@include border_radius(4px);
+			border:1px solid #666;
+			padding:2px 8px;
+			z-index:2;
+		}
+	}
+	#control-panel {
+		float:right;
+		width:210px;
+		height:590px;
+		padding:5px;
+		.control-box {
+			margin-top:16px;
+			position:relative;
+			border:1px solid #aaa;
+			padding:12px 5px;
+			@include border-radius(10px);
+			h1 { 
+				color:coral; 
+				font-weight:bold; 
+				font-size: 16px;
+				position:absolute;
+				top:-10px;
+				left:65px;
+				padding:0 8px;
+				background:lighten(black,10%);
+			}
+			.slider-label {
+				font-size:16px;
+				color:greenYellow;
+				padding:4px;
+				height: 1.2em;
+				.fixed { float: left; }
+				.value { float: right; }
+			}
+			.slider { margin:4px 0; }
+			button#animate {
+				font-family:verdana,arial,sans-serif;
+				font-size:15px;
+				margin-left:66px;
+				margin-top:10px;
+			}
+		}
+	}
+}

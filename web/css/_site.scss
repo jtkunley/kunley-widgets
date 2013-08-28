@@ -1,0 +1,55 @@
+@include font-face("Oxygen", font-files("/fonts/oxygen/Oxygen-Regular.ttf"));
+
+$site-width: 960px;
+
+html,body {
+	background:#ccc url("/img/backgrounds/light_wool.png") repeat;
+	color:DarkSlateGray;
+	a { color: #369; text-decoration:none;}
+	a:hover {text-decoration:underline;}
+	font-family: oxygen,sans-serif;
+}
+
+.site-width { width:$site-width; margin: 0 auto; position:relative;}
+
+header.site {
+	background: #999 url("/img/backgrounds/px_by_Gre3g.png") repeat;
+	color: SeaShell;
+	height: 55px;
+	@include box-shadow(rgba(black,0.4) 0 0 10px);
+	.width { width:$site-width; margin: 0 auto; }
+	h1, h2 {float:left; display:inline; margin-top: 14px;}
+	h1 a {
+		font-size:22px;
+		margin-right:50px;
+		color: lighten(LightSlateGray, 2%);
+		text-decoration:none !important;
+	}
+	h2 {
+		padding-top:3px;
+		font-size:18px;
+		color:Coral;
+	}
+}
+
+footer.site {
+	background: #999 url("/img/backgrounds/px_by_Gre3g.png") repeat;
+	color: darken(white, 20%);
+	#mission {
+		padding:10px 0;
+		line-height:1.4em;
+		font-size:14px;
+	}
+	#closure {
+		padding-top:10px;
+		height:100px;
+		font-size:14px;
+		color: darken(white, 40%);
+		#copyright { float:left; }
+		#links {
+			float:right;
+			a {padding-left:20px;}
+		}
+		#social {float:right;}
+	}
+}
