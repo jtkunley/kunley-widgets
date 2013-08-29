@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Terms of use | KunleyWidgets</title>
+<title>Welcome to KunleyWidgets</title>
 <link rel="stylesheet" href="/css/index.css" />
 </head>
 <body>
@@ -24,7 +24,7 @@
 				<tr>
 					<td>
 						<div class="image">
-							<a href="/wave"><img src="/img/widgets/wave_small.png" width="250" height="178" alt="Wave Interference Generator">
+							<a href="/wave"><img src="img/widgets/wave_small.png" width="250" height="178" alt="Wave Interference Generator">
 						 </a></div>
 					</td>
 					<td>

@@ -4,28 +4,19 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Wave Interference Generator - Generate Sine Wave Interference Patterns with HTML5!</title>
     <meta name="description"
-          content="Visual demonstration of how two sine waves interact with each other. You have the freedom to change wavelength, amplitude, and phase for each sine wave and observe their interference
+          content="Visual demonstration of how two sine waves interact with each other. Change wavelength, amplitude, and phase for each sine wave and observe their interference
 		pattern. Animate to see closer how that pattern changes over time. Change speed controls for each wave to interact with animation speed. Enjoy!">
     <link rel="stylesheet" href="/pages/wave/js/jquery-ui/jquery-ui-1.10.3.custom.min.css"/>
     <link rel="stylesheet" href="/pages/wave/css/wave.css"/>
     <script src="/js/jquery.js"></script>
     <script src="/pages/wave/js/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
     <script src="/pages/wave/js/wave.js"></script>
-    <script type="application/ld+json">
-        {
-        "@context" : "http://schema.org",
-        "@type" : "Article",
-        "name" : "Wave Interference Generator - Generate Sine Wave Interference Patterns with HTML5!",
-        }
-    </script>
 </head>
 <body>
 
 <jsp:include page="/pages/common/header.jsp"/>
 
 <div class="site-width">
-    <jsp:include page="/pages/common/social.jsp"/>
-
     <h1 id="title">Wave Interference Generator</h1>
     <section id="header">
         Hi. This is a visual demonstration of how two sine waves interact with each other. You have the freedom to
