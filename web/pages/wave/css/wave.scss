@@ -36,14 +36,14 @@ section#header {
 
 #write-up {
 	margin: 0 auto;
-	p { 
-		line-height:1.2em; 
-		padding:5px 0; 
+	p {
+		line-height:1.2em;
+		padding:5px 0;
 		strong {font-weight:bold;}
 	}
-	h3 { 
+	h3 {
 		padding: 5px 0;
-		font-weight:bold; 
+		font-weight:bold;
 		text-decoration:underline;
 	}
 }
@@ -65,14 +65,14 @@ section#header {
 		#canvas_2 { top:160px; left:10px; }
 		#canvas_sum { top:310px; left:10px; }
 		#wave_1 { top:5px; }
-		#wave_2 { top:150px; } 
+		#wave_2 { top:150px; }
 		#sum { top:300px }
-		.label { 
-			position:absolute; 
+		.label {
+			position:absolute;
 			left:5px;
 			display:inline;
-			font-size:14px; 
-			font-weight:bold; 
+			font-size:14px;
+			font-weight:bold;
 			color:coral;
 			white-space: nowrap;
 			background:lighten(black,10%);
@@ -93,9 +93,9 @@ section#header {
 			border:1px solid #aaa;
 			padding:12px 5px;
 			@include border-radius(10px);
-			h1 { 
-				color:coral; 
-				font-weight:bold; 
+			h1 {
+				color:coral;
+				font-weight:bold;
 				font-size: 16px;
 				position:absolute;
 				top:-10px;

@@ -1,11 +1,11 @@
 <section id="social">
-	<section>
+<!--	<section>
 		<script src="//platform.linkedin.com/in.js" type="text/javascript">
 			lang: en_US
 		</script>
 		<script type="IN/Share" data-counter="right"></script>
 	</section>
-
+-->
 	<section id="google"">
 		<!-- Place this tag where you want the +1 button to render. -->
 		<div class="g-plusone"></div>
@@ -22,7 +22,7 @@
 			})();
 		</script>
 	</section>
-
+<!--
 	<section id="facebook">
 		<div class="fb-like" data-width="250" data-show-faces="true" data-send="true"></div>
 		<div id="fb-root"></div>
@@ -38,5 +38,5 @@
 			}(document, 'script', 'facebook-jssdk'));
 		</script>
 	</section>
-
+-->
 </section>

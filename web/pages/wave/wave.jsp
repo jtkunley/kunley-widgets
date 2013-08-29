@@ -17,6 +17,8 @@
 <jsp:include page="/pages/common/header.jsp"/>
 
 <div class="site-width">
+    <jsp:include page="/pages/common/social.jsp"/>
+
     <h1 id="title">Wave Interference Generator</h1>
     <section id="header">
         Hi. This is a visual demonstration of how two sine waves interact with each other. You have the freedom to
