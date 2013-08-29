@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Welcome to KunleyWidgets</title>
+<title>Welcome to KunleyWidgets - a growing HTML5 Collection of Educational Widgets!</title>
 <link rel="stylesheet" href="/css/index.css" />
 </head>
 <body>

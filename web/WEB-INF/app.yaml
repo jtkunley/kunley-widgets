@@ -13,8 +13,8 @@ static_files:
 - exclude: /**.groovy
 
 handlers:
-- url: /about
-  jsp: /pages/legal/about.jsp
+- url: /credits
+  jsp: /pages/legal/credits.jsp
 
 - url: /terms
   jsp: /pages/legal/terms.jsp

@@ -28,10 +28,10 @@
 
         <h4>Controls:</h4>
         <ul>
-            <li>Wavelength - stretches or compresses the length of the wave</li>
-            <li>Amplitude - grows or shrinks the height of the wave</li>
-            <li>Phase - shifts the starting position of the wave</li>
-            <li>Speed - increases or decreases the speed of each wave while animating</li>
+            <li><strong>Wavelength</strong> - stretches or compresses the length of the wave</li>
+            <li><strong>Amplitude</strong> - grows or shrinks the height of the wave</li>
+            <li><strong>Phase</strong> - shifts the starting position of the wave</li>
+            <li><strong>Speed</strong> - increases or decreases the speed of each wave while animating</li>
         </ul>
     </section>
 
