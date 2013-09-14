@@ -19,7 +19,7 @@
     <section id="closure" class="site-width">
         <div id="copyright">Created by KunleyDesign, 2013.</div>
         <div id="links">
-            <a href="/about">About</a> <a href="/credits/">Credits</a><a href="/terms">Terms of use</a> <a
+            <a href="/about">About</a> <a href="/terms">Terms of use</a> <a
                 href="/privacy">Privacy</a>
             <a href="mailto:<%=request.getAttribute("email")%>">Contact Us</a>
         </div>
