@@ -26,6 +26,8 @@
             have a great day!
         </div>
         <div id="social">
+            <a href="https://github.com/jtkunley/kunley-widgets" title="GitHub"><img
+                    src="/img/social-icons/github_24.png" alt="GitHub"></a>
             <a href="https://www.facebook.com/jim.kunley" title="Facebook"><img src="/img/social-icons/facebook_24.png"
                                                                                 alt="Facebook"></a>
             <a href="http://www.linkedin.com/in/jameskunley" title="LinkedIn"><img
@@ -36,6 +38,8 @@
             <a href="http://myskype.info/jtkunley" title="Skype"><img src="/img/social-icons/skype_24.png" alt="Skype"></a>
             <a href="https://twitter.com/jtkunley" title="Twitter"><img src="/img/social-icons/twitter_24.png"
                                                                         alt="Twitter"></a>
+
+
         </div>
     </div>
 

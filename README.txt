@@ -1,2 +1,1 @@
-Hi. This project is an effort to create a collection of educational widgets using HTML5.
-It's free for non-commercial use. Thanks for your interest! KunleyWidgets Team.
+Hi. This project is an effort to create a collection of educational widgets using HTML5. It's free for non-commercial use. Thanks for your interest! KunleyWidgets Team.
