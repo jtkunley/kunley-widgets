@@ -1,0 +1,61 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "site";
+
+#content {
+  margin: 20px auto;
+  line-height: 1.5em;
+  min-height: 500px;
+  width: 750px;
+  h3 {
+    font-size: 22px;
+    margin: 20px 0 10px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ccc;
+  }
+  #profile {
+    height: 140px;
+    text-align: justify;
+    padding: 5px 20px 5px 5px;
+    @include border_radius(4px);
+    @include box_shadow(0 0 5px #ccc);
+    border: 1px solid #ccc;
+    @include transition();
+    #pic {
+      width: 120px;
+      height: 120px;
+      float: left;
+      margin-right: 12px;
+      @include border_radius(4px);
+      border: 1px solid #ccc;
+      padding: 1px;
+    }
+    #text {
+      font-size: 1em;
+    }
+    &:hover {
+      @include box_shadow(0 0 15px #ccc);
+      border: 1px solid #ccc;
+    }
+  }
+  #social {
+    margin: 10px 0;
+    a {
+      margin-right: 5px;
+    }
+    img {
+      @include border_radius(4px);
+      @include transition();
+      &:hover {
+        @include box_shadow(0 0 10px #ccc);
+      }
+    }
+  }
+  #credits {
+    .item {
+      margin: 10px 20px;
+      padding-left: 18px;
+      background: url(/img/icons/bullet_go.png) center left no-repeat;
+    }
+  }
+}

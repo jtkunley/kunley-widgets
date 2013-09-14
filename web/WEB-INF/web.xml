@@ -60,4 +60,13 @@
         <url-pattern>/wave/*</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>wave-plugin</servlet-name>
+        <jsp-file>/pages/wave-plugin/wave-plugin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wave-plugin</servlet-name>
+        <url-pattern>/wave-plugin/*</url-pattern>
+    </servlet-mapping>
+
 </web-app>
