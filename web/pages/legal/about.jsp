@@ -28,8 +28,9 @@
         <div id="social">
             <a href="https://www.facebook.com/jim.kunley" title="Facebook"><img src="/img/social-icons/facebook_24.png"
                                                                                 alt="Facebook"></a>
-            <a href="http://www.linkedin.com/in/jameskunley" title="LinkedIn"><img src="/img/social-icons/linkedin_24.png"
-                                                                                   alt="LinkedIn"></a>
+            <a href="http://www.linkedin.com/in/jameskunley" title="LinkedIn"><img
+                    src="/img/social-icons/linkedin_24.png"
+                    alt="LinkedIn"></a>
             <a href="https://plus.google.com/108889299109126731208" title="Google Plus"><img
                     src="/img/social-icons/google-plus_24.png" alt="Google Plus"></a>
             <a href="http://myskype.info/jtkunley" title="Skype"><img src="/img/social-icons/skype_24.png" alt="Skype"></a>
@@ -39,6 +40,7 @@
     </div>
 
     <h3>Credits</h3>
+
     <div id="credits">
         <div class="item">
             Lots of thanks to <a href="http://subtlepatterns.com/">SubtlePatterns</a> for a wonderful collection of
@@ -47,6 +49,10 @@
         <div class="item">
             Special thanks to <a href="http://www.eserc.stonybrook.edu/ProjectJava/">ProjectJava</a> and <a
                 href="http://html5rocks.com/en/">HTML5</a> for inspiring this project
+        </div>
+        <div style="text-align: center; margin-top:40px;">
+            <img src="https://developers.google.com/appengine/images/appengine-silver-120x30.gif"
+                 alt="Powered by Google App Engine"/>
         </div>
     </div>
 </div>
