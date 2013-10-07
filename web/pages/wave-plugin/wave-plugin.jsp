@@ -1,14 +1,22 @@
+<%
+    String context = request.getContextPath();
+%>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Wave Plugin Examples</title>
-    <script src="/js/jquery.js"></script>
-    <script src="/pages/wave-plugin/js/wave-plugin.js"></script>
-    <script src="/pages/wave-plugin/js/example.js"></script>
+    <title>Wave Plugin</title>
+    <script src="<%= context %>/js/jquery.js"></script>
+    <script src="<%= context %>/js/wave-plugin.js"></script>
+<script>
+$(function() {
+    $("#wave").wave();
+});
+</script>
+
 </head>
 <body>
 
-<div id="wave"></div>
+<div id="wave" />
 
 </body>
 </html>
