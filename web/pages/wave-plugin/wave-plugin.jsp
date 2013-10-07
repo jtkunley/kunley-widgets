@@ -6,10 +6,13 @@
 <head>
     <title>Wave Plugin</title>
     <script src="<%= context %>/js/jquery.js"></script>
-    <script src="<%= context %>/js/wave-plugin.js"></script>
+    <script src="<%= context %>/js/wave.js"></script>
 <script>
 $(function() {
-    $("#wave").wave();
+    $("#wave").wave({
+        width: 800,
+        phase: -90
+    });
 });
 </script>
 
