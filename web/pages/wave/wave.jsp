@@ -1,3 +1,6 @@
+<%
+    String context = request.getContextPath();
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,19 +9,17 @@
     <meta name="description"
           content="Visual demonstration of how two sine waves interact with each other. Change wavelength, amplitude, and phase for each sine wave and observe their interference
 		pattern. Animate to see closer how that pattern changes over time. Change speed controls for each wave to interact with animation speed. Enjoy!">
-    <link rel="stylesheet" href="/pages/wave/js/jquery-ui/jquery-ui-1.10.3.custom.min.css"/>
-    <link rel="stylesheet" href="/pages/wave/css/wave.css"/>
-    <script src="/js/jquery.js"></script>
-    <script src="/pages/wave/js/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="/pages/wave/js/wave.js"></script>
+    <link rel="stylesheet" href="<%= context %>/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.css"/>
+    <link rel="stylesheet" href="<%= context %>/css/wave.css"/>
+    <script src="<%= context %>/js/jquery.js"></script>
+    <script src="<%= context %>/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="<%= context %>/js/wave.js"></script>
 </head>
 <body>
 
-<jsp:include page="/pages/common/header.jsp"/>
+<%@ include file="../common/header.jsp" %>
 
 <div class="site-width">
-    <jsp:include page="/pages/common/social.jsp"/>
-
     <h1 id="title">Wave Interference Generator</h1>
     <section id="header">
         Hi. This is a visual demonstration of how two sine waves interact with each other. You have the freedom to
@@ -35,11 +36,11 @@
         </ul>
     </section>
 
-    <jsp:include page="/pages/wave/widget.jsp"/>
+    <%@ include file="widget.jsp" %>
 
     <div id="write-up">
         <p style="text-align:center;margin:10px 0;">
-            <img src="/pages/wave/img/formula.png">
+            <img src="<%= context %>/img/wave/formula.png">
         </p>
 
         <h3 style="margin:0 0 10px;">Sine Wave formula briefly described</h3>
@@ -53,12 +54,12 @@
         </p>
 
         <p>
-            <img src="/pages/wave/img/formula2.png" style="position:relative;top:5px;"> <strong>(angular
+            <img src="<%= context %>/img/wave/formula2.png" style="position:relative;top:5px;"> <strong>(angular
             frequency)</strong> - frequency measured in radians
         </p>
 
         <p>
-            <img src="/pages/wave/img/formula3.png" style="position:relative;top:5px;"> <strong>(phase)</strong> -
+            <img src="<%= context %>/img/wave/formula3.png" style="position:relative;top:5px;"> <strong>(phase)</strong> -
             fraction of the wave cycle (in radians) which has elapsed relative to origin (t=0)
         </p>
 
@@ -66,7 +67,7 @@
 
         <p>
             <strong>Wavelength</strong> - input ranges from 1 to 100; converted to angular frequency according to
-            following formula <img src="/pages/wave/img/formula4.png"
+            following formula <img src="<%= context %>/img/wave/formula4.png"
                                    style="position:relative; top:6px; margin-left:100px;"> to produce a nice looking
             display.
         </p>
@@ -77,7 +78,7 @@
 
         <p>
             <strong>Phase</strong> - input is in degrees (0-360); converted to radians like this <img
-                src="/pages/wave/img/formula5.png" style="position:relative;top:4px;margin-left:4px;">
+                src="<%= context %>/img/wave/formula5.png" style="position:relative;top:4px;margin-left:4px;">
         </p>
 
         <p style="margin-top:20px;">

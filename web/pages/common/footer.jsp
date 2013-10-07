@@ -1,3 +1,6 @@
+<%
+    String context = request.getContextPath();
+%>
 <footer class="site">
     <hr/>
     <section id="mission" class="site-width">
@@ -9,8 +12,8 @@
         </p>
 
         <p style="margin-top:10px;">
-            While using this site, you agree to have read and accepted our <a href="/terms">terms of use</a> and <a
-                href="/privacy">privacy policy</a>.
+            While using this site, you agree to have read and accepted our <a href="<%= context %>/terms">terms of use</a> and <a
+                href="<%= context %>/privacy">privacy policy</a>.
         </p>
     </section>
 
@@ -19,8 +22,8 @@
     <section id="closure" class="site-width">
         <div id="copyright">Created by KunleyDesign, 2013.</div>
         <div id="links">
-            <a href="/about">About</a> <a href="/terms">Terms of use</a> <a
-                href="/privacy">Privacy</a>
+            <a href="<%= context %>/about">About</a> <a href="<%= context %>/terms">Terms of use</a> <a
+                href="<%= context %>/privacy">Privacy</a>
             <a href="mailto:<%=request.getAttribute("email")%>">Contact Us</a>
         </div>
         <div id="social"></div>

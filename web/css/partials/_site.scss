@@ -1,11 +1,11 @@
-@include font-face("Oxygen", font-files("/fonts/oxygen/Oxygen-Regular.ttf"));
+@include font-face("Oxygen", font-files("../fonts/oxygen/Oxygen-Regular.ttf"));
 
 $site-width: 960px;
 $default-transition-duration: .2s;
 $default-transition-function: ease-in;
 
 html, body {
-  background: #ccc url("/img/backgrounds/light_wool.png") repeat;
+  background: #ccc url("../img/backgrounds/light_wool.png") repeat;
   color: DarkSlateGray;
   a {
     color: #369;
@@ -25,7 +25,7 @@ html, body {
 }
 
 header.site {
-  background: #999 url("/img/backgrounds/px_by_Gre3g.png") repeat;
+  background: #999 url("../img/backgrounds/px_by_Gre3g.png") repeat;
   color: SeaShell;
   height: 55px;
   @include box-shadow(rgba(black, 0.4) 0 0 10px);
@@ -52,7 +52,7 @@ header.site {
 }
 
 footer.site {
-  background: #999 url("/img/backgrounds/px_by_Gre3g.png") repeat;
+  background: #999 url("../img/backgrounds/px_by_Gre3g.png") repeat;
   color: darken(white, 20%);
   #mission {
     padding: 10px 0;
