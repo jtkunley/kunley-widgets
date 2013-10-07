@@ -11,7 +11,8 @@
 $(function() {
     $("#wave").wave({
         width: 800,
-        phase: -90
+        phase: -90,
+        grid: true
     });
 });
 </script>

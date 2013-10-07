@@ -6,7 +6,12 @@ $.fn.wave = function(options) {
         phase: 0,
         width: 600,
         color: "DodgerBlue",
-        thickness: 3
+        bgColor: "white",
+        thickness: 3,
+        grid: false,
+        gridSize: 20,
+        gridThickness: 1,
+        gridColor: "lightBlue"
     }, options );
     var height = wave.amplitude * 2;
 
@@ -27,10 +32,31 @@ $.fn.wave = function(options) {
     buffer.width = wave.width;
     buffer.height = height;
 
-    //draw wave
-    var ctx = canvas.getContext('2d');
+    //get context
+    var ctx = buffer.getContext('2d');
 	ctx.clearRect(0, 0, buffer.width, buffer.height);
 
+    //draw background
+    ctx.fillStyle = wave.bgColor;
+    ctx.fillRect(0, 0, buffer.width, buffer.height);
+    if(wave.grid) {
+        ctx.strokeStyle = wave.gridColor;
+        ctx.lineWidth = wave.gridThickness;
+        var increment = wave.gridSize;
+
+        ctx.beginPath();
+        for ( var i = 1; i < height / increment; i++) {
+            ctx.moveTo(0, i * increment);
+            ctx.lineTo(wave.width, i * increment);
+        }
+        for ( var j = 1; j < wave.width / increment; j++) {
+            ctx.moveTo(j * increment, 0);
+            ctx.lineTo(j * increment, height);
+        }
+        ctx.stroke();
+    }
+
+    //draw wave
 	ctx.strokeStyle = wave.color;
 	ctx.lineWidth = wave.thickness;
 
@@ -49,9 +75,9 @@ $.fn.wave = function(options) {
 	}
 	ctx.stroke();
 
-	//var front_ctx = canvas.getContext("2d");
-	//front_ctx.clearRect(0, 0, wave.width, wave.height);
-	//front_ctx.drawImage(buffer, 0, 0);
+	var front_ctx = canvas.getContext("2d");
+	front_ctx.clearRect(0, 0, wave.width, wave.height);
+	front_ctx.drawImage(buffer, 0, 0);
 
     return this;
 };
