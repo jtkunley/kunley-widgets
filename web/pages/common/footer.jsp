@@ -1,6 +1,9 @@
 <%
     String context = request.getContextPath();
 %>
+
+<jsp:include page="facebook-comments.jsp"/>
+
 <footer class="site">
     <hr/>
     <section id="mission" class="site-width">
@@ -30,4 +33,11 @@
     </section>
 </footer>
 
-<jsp:include page="/pages/common/analytics.js"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128349458-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128349458-1');
+</script>
