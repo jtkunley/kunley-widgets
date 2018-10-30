@@ -69,7 +69,7 @@ function wave(idx, wavelength, amplitude, phase, color, height) {
 	w.amplitude = amplitude;
 	w.phase = phase;
 	w.color = color;
-	w.width = 600;
+	w.width = 710;
 	w.height = height;
 	w.speed = 4;
 
@@ -194,7 +194,7 @@ function drawWave(wave) {
 function clearCanvas() {
 	var canvas = document.getElementById("canvas_bg");
 	var ctx = canvas.getContext('2d');
-	var width = 620, height = 600;
+	var width = 730, height = 600;
 
 	ctx.fillStyle = "#111";
 	ctx.fillRect(0, 0, width, height);

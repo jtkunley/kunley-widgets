@@ -9,7 +9,7 @@
 <header class="site">
 	<div class="width">
 		<h1>
-			<a href="/">KunleyWidgets</a>
+			<a href="/">Wave Interference</a>
 		</h1>
 		<h2>HTML5 Widget Collection</h2>
 	</div>

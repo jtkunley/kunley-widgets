@@ -34,7 +34,7 @@
 		<section>
 			<h3>Contacting Us</h3>
 			<p>
-				For any questions about this privacy statement, please contact <a href="<%=request.getAttribute("email")%>"><%=request.getAttribute("email")%></a>.
+				For any questions about this privacy statement, please <a href="<%=request.getAttribute("email")%>">contact us</a>.
 			</p>
 		</section>
 	</div>

@@ -1,0 +1,366 @@
+/* line 5, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "Oxygen";
+  src: url('/fonts/../fonts/oxygen/Oxygen-Regular.ttf?1540921690') format('truetype');
+}
+/* line 7, ../scss/partials/_site.scss */
+html, body {
+  background: #ccc url("../img/backgrounds/light_wool.png") repeat;
+  color: DarkSlateGray;
+  font-family: oxygen, sans-serif;
+}
+/* line 10, ../scss/partials/_site.scss */
+html a, body a {
+  color: #369;
+  text-decoration: none;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/* line 15, ../scss/partials/_site.scss */
+html a:hover, body a:hover {
+  color: orange;
+}
+
+/* line 21, ../scss/partials/_site.scss */
+.site-width {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 27, ../scss/partials/_site.scss */
+header.site {
+  background: #999 url("../img/backgrounds/px_by_Gre3g.png") repeat;
+  color: SeaShell;
+  height: 55px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+}
+/* line 32, ../scss/partials/_site.scss */
+header.site .width {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 36, ../scss/partials/_site.scss */
+header.site h1, header.site h2 {
+  float: left;
+  display: inline;
+  margin-top: 14px;
+}
+/* line 41, ../scss/partials/_site.scss */
+header.site h1 a {
+  font-size: 22px;
+  margin-right: 50px;
+  color: #7d8d9d;
+  text-decoration: none !important;
+}
+/* line 47, ../scss/partials/_site.scss */
+header.site h2 {
+  padding-top: 3px;
+  font-size: 18px;
+  color: Coral;
+}
+
+/* line 54, ../scss/partials/_site.scss */
+footer.site {
+  background: #999 url("../img/backgrounds/px_by_Gre3g.png") repeat;
+  color: #cccccc;
+}
+/* line 57, ../scss/partials/_site.scss */
+footer.site #mission {
+  padding: 10px 0;
+  line-height: 1.4em;
+  font-size: 14px;
+}
+/* line 62, ../scss/partials/_site.scss */
+footer.site #closure {
+  padding-top: 10px;
+  height: 100px;
+  font-size: 14px;
+  color: #999999;
+}
+/* line 67, ../scss/partials/_site.scss */
+footer.site #closure #copyright {
+  float: left;
+}
+/* line 70, ../scss/partials/_site.scss */
+footer.site #closure #links {
+  float: right;
+}
+/* line 72, ../scss/partials/_site.scss */
+footer.site #closure #links a {
+  padding-left: 20px;
+}
+/* line 76, ../scss/partials/_site.scss */
+footer.site #closure #social {
+  float: right;
+}
+
+/* line 5, ../scss/wave.scss */
+#notes {
+  font-size: 10px;
+  font-family: verdana, helvetica, sans-serif;
+  color: DarkSlateGray;
+  margin: 10px auto 20px auto;
+  line-height: 1.2em;
+  border-top: 1px solid #ccc;
+}
+/* line 12, ../scss/wave.scss */
+#notes p {
+  margin-top: 12px;
+}
+
+/* line 17, ../scss/wave.scss */
+section#social {
+  position: absolute;
+  top: 100px;
+  right: 40px;
+  width: 270px;
+}
+/* line 22, ../scss/wave.scss */
+section#social section {
+  margin-bottom: 5px;
+}
+
+/* line 27, ../scss/wave.scss */
+h1#title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #395f5f;
+}
+
+/* line 36, ../scss/wave.scss */
+section#header {
+  line-height: 1.5em;
+}
+/* line 38, ../scss/wave.scss */
+section#header strong {
+  font-weight: bold;
+}
+/* line 41, ../scss/wave.scss */
+section#header h4 {
+  font-weight: bold;
+  margin-top: 5px;
+}
+/* line 45, ../scss/wave.scss */
+section#header ul {
+  list-style: disc outside none;
+}
+/* line 48, ../scss/wave.scss */
+section#header ul li {
+  margin-left: 20px;
+}
+
+/* line 53, ../scss/wave.scss */
+#write-up {
+  margin: 0 auto;
+}
+/* line 55, ../scss/wave.scss */
+#write-up p {
+  line-height: 1.2em;
+  padding: 5px 0;
+}
+/* line 58, ../scss/wave.scss */
+#write-up p strong {
+  font-weight: bold;
+}
+/* line 62, ../scss/wave.scss */
+#write-up h3 {
+  padding: 5px 0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* line 69, ../scss/wave.scss */
+#widget {
+  border: 2px solid #666;
+  width: 960px;
+  height: 600px;
+  margin: 10px auto;
+  background: #1a1a1a;
+  font-family: Verdana, Arial, sans-serif;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+}
+/* line 77, ../scss/wave.scss */
+#widget #canvas-panel {
+  float: left;
+  position: relative;
+}
+/* line 80, ../scss/wave.scss */
+#widget #canvas-panel canvas {
+  position: absolute;
+}
+/* line 83, ../scss/wave.scss */
+#widget #canvas-panel #canvas_bg {
+  border-right: 1px solid #aaa;
+}
+/* line 86, ../scss/wave.scss */
+#widget #canvas-panel #canvas_1 {
+  top: 10px;
+  left: 10px;
+}
+/* line 90, ../scss/wave.scss */
+#widget #canvas-panel #canvas_2 {
+  top: 160px;
+  left: 10px;
+}
+/* line 94, ../scss/wave.scss */
+#widget #canvas-panel #canvas_sum {
+  top: 310px;
+  left: 10px;
+}
+/* line 98, ../scss/wave.scss */
+#widget #canvas-panel #wave_1 {
+  top: 5px;
+}
+/* line 101, ../scss/wave.scss */
+#widget #canvas-panel #wave_2 {
+  top: 150px;
+}
+/* line 104, ../scss/wave.scss */
+#widget #canvas-panel #sum {
+  top: 300px;
+}
+/* line 107, ../scss/wave.scss */
+#widget #canvas-panel .label {
+  position: absolute;
+  left: 5px;
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+  color: coral;
+  white-space: nowrap;
+  background: #1a1a1a;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #666;
+  padding: 2px 8px;
+  z-index: 2;
+}
+/* line 122, ../scss/wave.scss */
+#widget #control-panel {
+  float: right;
+  width: 210px;
+  height: 590px;
+  padding: 5px;
+}
+/* line 127, ../scss/wave.scss */
+#widget #control-panel .control-box {
+  margin-top: 16px;
+  position: relative;
+  border: 1px solid #aaa;
+  padding: 12px 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 133, ../scss/wave.scss */
+#widget #control-panel .control-box h1 {
+  color: coral;
+  font-weight: bold;
+  font-size: 16px;
+  position: absolute;
+  top: -10px;
+  left: 65px;
+  padding: 0 8px;
+  background: #1a1a1a;
+}
+/* line 143, ../scss/wave.scss */
+#widget #control-panel .control-box .slider-label {
+  font-size: 16px;
+  color: greenYellow;
+  padding: 4px;
+  height: 1.2em;
+}
+/* line 148, ../scss/wave.scss */
+#widget #control-panel .control-box .slider-label .fixed {
+  float: left;
+}
+/* line 151, ../scss/wave.scss */
+#widget #control-panel .control-box .slider-label .value {
+  float: right;
+}
+/* line 155, ../scss/wave.scss */
+#widget #control-panel .control-box .slider {
+  margin: 4px 0;
+}
+/* line 158, ../scss/wave.scss */
+#widget #control-panel .control-box button#animate {
+  font-family: verdana, arial, sans-serif;
+  font-size: 15px;
+  margin-left: 66px;
+  margin-top: 10px;
+}

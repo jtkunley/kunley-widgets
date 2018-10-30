@@ -1,10 +1,10 @@
 
 <div id="widget">
 	<div id="canvas-panel">
-		<canvas id="canvas_bg" width="620" height="600" style="z-index:0"></canvas>
-		<canvas id="canvas_1" width="600" height="140" style="z-index:1"></canvas>
-		<canvas id="canvas_2" width="600" height="140" style="z-index:1"></canvas>
-		<canvas id="canvas_sum" width="600" height="280" style="z-index:1"></canvas>
+		<canvas id="canvas_bg" width="730" height="600" style="z-index:0"></canvas>
+		<canvas id="canvas_1" width="710" height="140" style="z-index:1"></canvas>
+		<canvas id="canvas_2" width="710" height="140" style="z-index:1"></canvas>
+		<canvas id="canvas_sum" width="710" height="280" style="z-index:1"></canvas>
 		<div id="wave_1" class="label">Wave 1</div>
 		<div id="wave_2" class="label">Wave 2</div>
 		<div id="sum" class="label">Interference</div>

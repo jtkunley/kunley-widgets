@@ -5,7 +5,7 @@
     <hr/>
     <section id="mission" class="site-width">
         <p>
-            KunleyWidgets is dedicated to serving an ever growing number of interactive HTML5 widgets for visually
+            KunleyDesign is dedicated to serving an ever growing number of interactive HTML5 widgets for visually
             demonstrating key concepts in various educational disciplines. These widgets are FREE to use
             for educational purposes. If you'd like to use them commercially, please <a
                 href="mailto:<%=request.getAttribute("email")%>">contact us</a>.
